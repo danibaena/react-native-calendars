@@ -7,27 +7,31 @@ export default function(theme={}) {
     header: {
       flexDirection: 'row',
       justifyContent: 'space-between',
-      paddingLeft: 10,
-      paddingRight: 10,
-      alignItems: 'center'
+      alignItems: 'center',
+      borderBottomWidth: 0.5,
+      borderBottomColor: '#282629',
+      paddingBottom: 20,
+      borderStyle: 'solid',
     },
     monthText: {
       fontSize: appStyle.textMonthFontSize,
       fontFamily: appStyle.textMonthFontFamily,
-      fontWeight: '300',
+      fontWeight: '500',
       color: appStyle.monthTextColor,
-      margin: 10
     },
     arrow: {
-      padding: 10
+      padding: 0,
+      margin: 0,
     },
     arrowImage: {
       ...Platform.select({
         ios: {
-          tintColor: appStyle.arrowColor
+          tintColor: appStyle.arrowColor,
+          height: 40,
         },
         android: {
-          tintColor: appStyle.arrowColor
+          tintColor: appStyle.arrowColor,
+          height: 40,
         }
       })
     },
@@ -37,13 +41,14 @@ export default function(theme={}) {
       justifyContent: 'space-around'
     },
     dayHeader: {
-      marginTop: 2,
-      marginBottom: 7,
+      marginTop: 20,
+      marginBottom: 20,
       width: 32,
       textAlign: 'center',
       fontSize: appStyle.textDayHeaderFontSize,
       fontFamily: appStyle.textDayHeaderFontFamily,
-      color: appStyle.textSectionTitleColor
+      color: appStyle.textSectionTitleColor,
+      fontWeight: 'bold',
     }
   });
 }
