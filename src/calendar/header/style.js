@@ -27,7 +27,6 @@ export default function(theme={}) {
       ...Platform.select({
         ios: {
           tintColor: appStyle.arrowColor,
-          height: 40,
         },
         android: {
           tintColor: appStyle.arrowColor,
