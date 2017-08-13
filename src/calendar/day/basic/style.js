@@ -23,14 +23,14 @@ export default function styleConstructor(theme={}) {
     selected: {
       backgroundColor: appStyle.selectedDayBackgroundColor,
       borderRadius: 5,
-      fontWeight: 'bold',
     },
     todayText: {
       color: appStyle.todayTextColor,
       fontWeight: 'bold',
     },
     selectedText: {
-      color: appStyle.selectedDayTextColor
+      color: appStyle.selectedDayTextColor,
+      fontWeight: 'bold',
     },
     disabledText: {
       color: appStyle.textDisabledColor,
