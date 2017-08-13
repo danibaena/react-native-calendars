@@ -8,10 +8,7 @@ export default function(theme={}) {
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',
-      borderBottomWidth: 0.5,
-      borderBottomColor: '#282629',
       paddingBottom: 20,
-      borderStyle: 'solid',
     },
     monthText: {
       fontSize: appStyle.textMonthFontSize,
