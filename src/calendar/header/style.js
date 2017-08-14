@@ -8,7 +8,7 @@ export default function(theme={}) {
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',
-      paddingBottom: 20,
+      paddingBottom: 15,
     },
     monthText: {
       fontSize: appStyle.textMonthFontSize,
@@ -27,7 +27,6 @@ export default function(theme={}) {
         },
         android: {
           tintColor: appStyle.arrowColor,
-          height: 40,
         }
       })
     },
@@ -37,8 +36,7 @@ export default function(theme={}) {
       justifyContent: 'space-around'
     },
     dayHeader: {
-      marginTop: 20,
-      marginBottom: 20,
+      marginBottom: 10,
       width: 32,
       textAlign: 'center',
       fontSize: appStyle.textDayHeaderFontSize,

@@ -7,7 +7,6 @@ export default function getStyle(theme={}) {
     container: {
       flex: 1,
       backgroundColor: appStyle.calendarBackground,
-      paddingBottom: 20,
     },
     week: {
       marginTop: 7,
